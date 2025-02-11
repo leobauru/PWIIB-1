@@ -10,6 +10,7 @@
 <body>
 
     <a href="contato.php">pagina de contatos</a>
+    <a href="produtos.php">produtos</a>
     
     <?php 
         echo "<h1>Titulo de projetos PWII B</h1>"
