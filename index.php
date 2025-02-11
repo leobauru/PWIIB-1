@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <a href="contato.php">pagina de contatos</a>
+    
     <?php 
         echo "<h1>Titulo de projetos PWII B</h1>"
     ?>
