@@ -8,9 +8,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a class="voltar" href="index.php">voltar</a>
+    <a type="button" class="btn btn-outline-dark" class="voltar" href="index.php">voltar</a>
     <?php
         echo " <h1> pagina de contato </h1> "
     ?>
+
+
+
+
 </body>
 </html>
