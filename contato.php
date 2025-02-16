@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
 </head>
 <body>
     <a type="button" class="btn btn-outline-dark" class="voltar" href="index.php">voltar</a>
@@ -14,7 +15,7 @@
     ?>
 
 
-
+<script src="bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
