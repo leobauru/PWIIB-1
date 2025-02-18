@@ -7,11 +7,21 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+      .row{
+        border:2px solid red;
+        
+      }
+
+
+    </style>
+
+
 </head>
 <body>
 
     
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,21 +46,42 @@
       </form>
     </div>
   </div>
-</nav>
+</nav> -->
+
+  <!-- <h1>sistema de layout</h1>
+  <div class="row justify-content-center text-center">
+    <div class="col-4 border ">red</div>
+  </div>
+
+  <div class="col">
+    <div class="row-5 border"></div>
+  </div> -->
+
+<div class="row text-center">
+  <button type="button" class="btn col-3 end btn-outline-primary">Cadastras</button>
+  <div class="col-3 ">Pesquisar</div>
+  <div type="button" class="btn col-3 btn-outline-primary">
+    <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username"/>
+    </div>
+  <div class="col-1">
+  </div>
+  <button type="button" class="btn col-2 btn-outline-primary">Procurar</button>
+</div>
 
 
 
-        <div class="alert alert-success" role="alert">
+
+        <!-- <div class="alert alert-success" role="alert">
             A simple success alert—check it out!
-        </div>
+        </div> -->
 
-    <!-- Button trigger modal -->
+    <!-- Button trigger modal
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
   Launch demo modal
-</button>
+</button> -->
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -74,35 +105,39 @@
 </div>
 
 <br>
+<div class="row justify-content-center text-center">
+  <div class="col-10">
 
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>    <script src=".\bootstrap.bundle.min.js "></script>
-    </html>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td colspan="2">Larry the Bird</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>    <script src=".\bootstrap.bundle.min.js "></script>
+  </div>
+</div> -->
+</html>
 </body>
