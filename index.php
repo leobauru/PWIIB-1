@@ -43,10 +43,7 @@
 <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
   <div class="container-fluid">
     
-    <a class="navbar-brand" href="#">
-      <img src="/docs/5.3/assets/iconn.npg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-      Bootstrap
-    </a>
+
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
         
@@ -63,6 +60,49 @@
           </ul>
 
       </ul>
+  </div>
+</nav>
+
+
+
+
+
+<nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="variavel.php">variavel</a></li>
+            <li><a class="dropdown-item" href="if.php">iF</a></li>
+            <li><a class="dropdown-item" href="while.php">while</a></li>
+            <li><a class="dropdown-item" href="for.php">for</a></li>
+            <li><a class="dropdown-item" href="switch.php">switch</a></li>
+            <li><a class="dropdown-item" href="array.php">array/vetor</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
   </div>
 </nav>
 
