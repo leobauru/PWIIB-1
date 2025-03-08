@@ -24,20 +24,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            php
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="variavel.php">Variável</a></li>
-                            <li><a class="dropdown-item" href="if.php">If</a></li>
-                            <li><a class="dropdown-item" href="while.php">While</a></li>
-                            <li><a class="dropdown-item" href="for.php">For</a></li>
-                            <li><a class="dropdown-item" href="switch.php">Switch</a></li>
-                            <li><a class="dropdown-item" href="array.php">Array/Vetor</a></li>
-                        </ul>
-                    </li>
-
+                <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            php
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="variavel.php">Variável</a></li>
+            <li><a class="dropdown-item" href="if.php">If</a></li>
+            <li><a class="dropdown-item" href="while.php">While</a></li>
+            <li><a class="dropdown-item" href="for.php">For</a></li>
+            <li><a class="dropdown-item" href="switch.php">Switch</a></li>
+            <li><a class="dropdown-item" href="array.php">Array/Vetor</a></li>
+          </ul>
+        </li>
                 </ul>
 
             </div>

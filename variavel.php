@@ -9,11 +9,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Váriavel</title>
     <link href="bootstrap.min.css" rel="stylesheet">
+
+
 </head>
 <body style="overflow-x:hidden">
     <div class="container">
         <h1>Váriavel</h1>
-        
+                +<div class="-">
+
+                </div>
+                <div class=""></div>
         <h3>Declaração de variáveis</h3>
 
         <p>A declaração de variáveis em PHP é feita utilizando o símbolo de cifrão ($) antes do nome da variável. O nome da variável deve começar com uma letra ou um underscore (_), seguido por letras, números ou underscores. As variáveis em PHP são dinâmicas, ou seja, não é necessário declarar o tipo da variável antes de usá-la. O valor da variável pode ser alterado ao longo da execução do código.</p>
@@ -71,26 +76,29 @@
             // Exercicio 1
             $num1 = 10;
             $num2 = 10;
-            $res = $num1 + $num2;
+            $resM = $num1 + $num2;
 
-            echo "$num1 + $num2 = $res<br>";
+            //echo "$num1 + $num2 = $resM<br>";
 
             // Exercicio 2
             $num1 = 10;
             $num2 = 10;
-            $res = $num1 * $num2;
+            $resV = $num1 * $num2;
 
-            echo "$num1 * $num2 = $res<br>";
+            //echo "$num1 * $num2 = $resV<br>";
 
             // Exercicio 3
             $desc = "Celular iphone 14";
             $valor = 10;
             $quant = 10;
 
-            echo "$desc <br>quantidade: $quant <br>Valor: $valor";
+            echo " $num1 + $num2 = $resM <br> 
+            $num1 * $num2 = $resV <br> 
+            $desc <br>quantidade: $quant <br>Valor: $valor";
 
         ?>
-    </div>
+
+
 
     <script src="bootstrap.bundle.min.js" ></script>
 </body>
