@@ -79,7 +79,7 @@
 
         <h3> 6 - menssagem </h3>
         <label for="nameMsg">nome usuario</label>
-        <input type="number" name="nameMsg" id="nameMsg" value="">
+        <input type="text" name="nameMsg" id="nameMsg" value="">
         <br>
         <label for="msg">menssagem</label>
         
