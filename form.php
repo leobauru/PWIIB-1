@@ -16,7 +16,7 @@
     <h1> Cadastros de Usuário </h1>
 
 
-    <form class="row g-3 " action="dados/salvar_dados.php" method="get">
+    <form class="row g-3 " action="form.php" method="get">
 
         <!-- <label for="name">Nome</label>
         <input type="text" name="name" id="name" value="">
@@ -37,6 +37,25 @@
         <br>
         <label for="age">idade</label>
         <input type="number" name="age" id="age" value="">
+        <br>
+
+        <?php
+            if(isset($_GET["firstname"])  && isset($_GET["age"])){
+
+            
+                echo $_GET["firstname"];
+                echo " <br> ";
+                echo $_GET["age"];
+                echo " <br> ";
+        to com dor n a bariga
+            }else {
+        ?>  
+              <div class="alert alert-danger" role="alert">
+                This is a danger alert—check it out!
+              </div>
+        <?php
+            }
+        ?>
 
         <br>
 
@@ -53,11 +72,11 @@
         <label for="nameUs">nome de usuario</label>
         <input type="text" name="nameUs" id="nameUs" value="">
         <br>
-
+        <button type="submit">Enviar</button>
 
     </form>
-
-    <form class="row g-3 " action="dados/salvar_dados.php" method="post">
+<!-- 
+    <form class="row g-3 " action="form.php" method="post">
 
         <h3> 4 - login </h3>
         <label for="nameLo">Nome</label>
@@ -88,7 +107,7 @@
         <br>
 
         <button type="submit">Enviar</button>
-    </form>
+    </form> -->
 
 
     <script src="bootstrap.bundle.min.js"></script>
